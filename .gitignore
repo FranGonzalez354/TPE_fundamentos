@@ -1,0 +1,15 @@
+# Entornos virtuales (ignorando carpetas y accesos directos)
+lib
+lib64
+bin
+include
+etc
+share
+pyvenv.cfg
+.venv
+env
+
+# Archivos temporales de Jupyter y sistema
+.ipynb_checkpoints
+*.pyc
+.DS_Store
