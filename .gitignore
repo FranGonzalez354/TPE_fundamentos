@@ -13,3 +13,6 @@ env
 .ipynb_checkpoints
 *.pyc
 .DS_Store
+
+# Archivos de bloqueo de LibreOffice
+.~lock.*#
