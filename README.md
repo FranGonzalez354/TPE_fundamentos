@@ -28,8 +28,9 @@ Análisis exploratorio, limpieza y validación de hipótesis sobre el dataset CK
 
 ## Requisitos
 
-- Python 3.14 (probado con Python 3.14.8)
+- Python 3.14 (probado con Python 3.14.8). Con versiones más viejas de Python, algunas de las versiones de `requirements.txt` pueden no instalarse.
 - pip
+- Git (opcional, solo para clonar el repositorio). Sin Git, se puede descargar el repositorio desde GitHub con *Code → Download ZIP* y descomprimirlo.
 
 ## Instrucciones de ejecución
 
@@ -40,14 +41,25 @@ Análisis exploratorio, limpieza y validación de hipótesis sobre el dataset CK
    cd TPE_fundamentos
    ```
 
+   Si se descargó el ZIP, entrar a la carpeta descomprimida (`TPE_fundamentos-main`).
+
 2. Crear y activar un entorno virtual:
+
+   En Linux o macOS:
 
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    ```
 
-   En Windows, activar el entorno con `.venv\Scripts\activate`.
+   En Windows (PowerShell):
+
+   ```powershell
+   py -m venv .venv
+   .venv\Scripts\Activate.ps1
+   ```
+
+   Si PowerShell no permite ejecutar el script de activación, correr antes `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`. En Windows (cmd), activar con `.venv\Scripts\activate.bat`.
 
 3. Instalar las dependencias:
 
